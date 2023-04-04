@@ -1,4 +1,5 @@
 // LEET CODE = 144;
+// PreOrder = First we will read ROOT , Second we will read LEFT sub-tree , Third we will read RIGHT Sub-tree.
 
 let result;
 
