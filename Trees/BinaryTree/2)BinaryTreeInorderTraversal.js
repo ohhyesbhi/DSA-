@@ -1,5 +1,5 @@
 // LEET CODE = 94 
-
+// InOrder = First we will read LEFT subtree , Second we will read ROOT , Third we will read RIGHT subtree.
 let result
 
 var inorderTraversal = function(root) {
