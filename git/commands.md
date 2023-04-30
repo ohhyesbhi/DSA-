@@ -1,4 +1,4 @@
-###                             comands
+####                                                                   comands
 
 git init --> Powers your folder to be managed by git, and initialises a new empty repository .It also creates .git folder that has all relevent versions of your project.
 
