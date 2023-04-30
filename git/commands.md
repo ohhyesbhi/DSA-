@@ -32,6 +32,12 @@ Commit is a paticular version of the project. It captures a snapshot of project'
 * Remote connection --> It helps you to link two git repositories for uploading and downloading changes from eech other.
 
 * git remote add <name of remote> <link of remote> --> This command helps us to add a new limk to the rwmote repo and give a name to it
+  
+* git add <file1><file2><file3> --> this command will add multiple file changes together in the staging area 
+  
+* git add . --> this command will add all files from workimg repo to staging repo
 
-* git remote rm <name of remote> --> This command deletes a remote connection
+* git remote rm <name of remote> --> this command deletes a remote connection
+  
+* git pull <remote name><branchname> --> download the latest changes from branch of the mentioned remote in your local repo  
 
