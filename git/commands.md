@@ -1,14 +1,15 @@
-###                             comands
+###                                                                   COMANDS
 
-git init --> Powers your folder to be managed by git, and initialises a new empty repository .It also creates .git folder that has all relevent versions of your project.
+`git init` --> Powers your folder to be managed by git, and initialises a new empty repository .It also creates .git folder that has all relevent versions of your project.
 
-Working area --> There can be bunch of files that are not currently handled by git. It means that changes done or to be done in those files are not managed by git yet. A file which is in working area  is considerd to be not in the staging area. When you do 'git status' ans we can see bunch of 'untracked files' then these are actually called to be in the working area.
+`Working area` --> There can be bunch of files that are not currently handled by git. It means that changes done or to be done in those files are not managed by git yet. A file which is in working area  is considerd to be not in the staging area. When you do 'git status' ans we can see bunch of 'untracked files' then these are actually called to be in the working area.
 
-Staging area --> It tells us what all files are going to be our next version that we will create.Staging area is the place where git knows what changes will be done from the last version to next version.
+`Staging area` --> It tells us what all files are going to be our next version that we will create.Staging area is the place where git knows what changes will be done from the last version to next version.
 
-Repository area --> This area is actually contains the details of all the previos registered version. And the files in this area, git already manages them and knows there version history.
+`Repository area` --> This area is actually contains the details of all the previos registered version. And the files in this area, git already manages them and knows there version history.
 
-Commit --> Commit is a paticular version of the project. It captures a snapshot of project's staged
+### Commit
+Commit is a paticular version of the project. It captures a snapshot of project's staged
 
 * git add "<filename>" --> moves file from working area to staging area
 
@@ -31,6 +32,12 @@ Commit --> Commit is a paticular version of the project. It captures a snapshot 
 * Remote connection --> It helps you to link two git repositories for uploading and downloading changes from eech other.
 
 * git remote add <name of remote> <link of remote> --> This command helps us to add a new limk to the rwmote repo and give a name to it
+  
+* git add <file1><file2><file3> --> this command will add multiple file changes together in the staging area 
+  
+* git add . --> this command will add all files from workimg repo to staging repo
 
-* git remote rm <name of remote> --> This command deletes a remote connection
+* git remote rm <name of remote> --> this command deletes a remote connection
+  
+* git pull <remote name><branchname> --> download the latest changes from branch of the mentioned remote in your local repo  
 
